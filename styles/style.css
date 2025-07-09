@@ -13,6 +13,9 @@
 .dark2{
     color: #474747;
 }
+.dark3{
+    color: #757575;
+}
 .btn-primary{
     background-color: #FD6E0A;
     padding: 18px 35px;
@@ -22,14 +25,25 @@
     border-radius: 5px;
     border: none;
 }
+.contant-section{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
 
+
+/* header background image  */
+/* .header-banner{
+    background-image: url('../images/developer.png' , url('../images/header_bg.png'));
+
+} */
 
 /* navigation bar */
 .navi-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 30px;
+    margin: 50px 200px ;
 }
 .nav-title{
     font-weight: 800;
@@ -67,4 +81,36 @@ nav ul{
 .banner-img{
     width: 580px;
 }
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section  */
+.about{
+    display: flex;
+    margin: 50px 250px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: center;
 
+}
+.parent-div-about{
+    margin: 130px 160px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+}
+.info-desc{
+    font-size: 20px;
+    font-weight: bold;
+}
